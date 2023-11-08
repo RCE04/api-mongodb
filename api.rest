@@ -48,3 +48,28 @@ content-type: application/json
 
 DELETE https://api-mongodb-dev-nnas.3.us-1.fl0.io/api/users/6542da20c20d9ad95c739701 HTTP/1.1
 content-type: application/json
+
+###
+
+POST http://localhost:3000/api/users HTTP/1.1
+content-type: application/json
+
+{ 
+    "nombre": "Alvaro", 
+    "edad": 21 
+}
+
+###
+
+PUT https://api-mongodb-dev-rebn.3.us-1.fl0.io/api/users/654a78967070f476ea5af45e HTTP/1.1
+content-type: application/json
+
+{ 
+    "nombre": "Juanito", 
+    "edad": 21 
+}
+
+###
+
+PUT https://api-mongodb-dev-rebn.3.us-1.fl0.io/api/users/654a78967070f476ea5af45e HTTP/1.1
+content-type: application/json
